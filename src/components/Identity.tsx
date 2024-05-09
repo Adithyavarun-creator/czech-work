@@ -1,4 +1,3 @@
-import { GoClock } from "react-icons/go";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClockRotateLeft } from '@fortawesome/free-solid-svg-icons'
 
