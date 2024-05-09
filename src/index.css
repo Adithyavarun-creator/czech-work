@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .padding {
+    @apply md:px-20 md:py-10 lg:px-24 lg:py-10;
+  }
+}
