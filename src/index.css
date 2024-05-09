@@ -10,6 +10,20 @@ body {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff5f23;
+}
+
 @layer components {
   .padding {
     @apply md:px-20 md:py-10 lg:px-24 lg:py-10;
