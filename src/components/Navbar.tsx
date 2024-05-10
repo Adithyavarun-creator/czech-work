@@ -17,12 +17,12 @@ const Navbar = ({ contact }: NavbarProps) => {
     return (
         <>
             <nav className="hidden md:flex justify-between padding z-50">
-                <div>
+                <Link to="/" className="">
                     <img src="https://i.pinimg.com/736x/05/bb/5d/05bb5d3cc73dd567808d76517b598987.jpg"
                         className="object-contain w-full h-10 cursor-pointer"
                         alt="logo"
                     />
-                </div>
+                </Link>
                 <div>
                     <ul className="flex items-center gap-8 cursor-pointer">
                         <li className={`${contact ? 'text-black' : 'text-white'} font-bold md:text-sm lg:text-xl`}>Producty</li>
@@ -43,12 +43,12 @@ const Navbar = ({ contact }: NavbarProps) => {
 
             <nav className="relative md:hidden z-50">
                 <div className="flex justify-between p-12">
-                    <div>
+                    <Link to="/">
                         <img src="https://i.pinimg.com/736x/05/bb/5d/05bb5d3cc73dd567808d76517b598987.jpg"
                             className="object-contain w-full h-10 cursor-pointer"
                             alt="logo"
                         />
-                    </div>
+                    </Link>
                     <div>
                         <RiMenu3Line className="w-10 h-10 text-custom-orange" onClick={() => setToggle(!toggle)} />
                     </div>
