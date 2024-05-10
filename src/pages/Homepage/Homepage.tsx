@@ -8,7 +8,7 @@ import Reference from "../../components/Reference"
 
 const Homepage = () => {
     return (
-        <div className="flex flex-col relative">
+        <div className="flex flex-col">
             <Navbar />
             <Header />
             <Fillings />

@@ -13,7 +13,7 @@ const Header = () => {
                     alt="" />
             </div>
             <div className="flex flex-col gap-14 absolute top-[700px] right-0 left-0 bottom-0 padding">
-                <h2 className="font-bold text-6xl text-white">Okna <br /> a dvere</h2>
+                <h1 className="font-bold text-6xl text-white">Okna <br /> a dvere</h1>
 
                 <div className="flex justify-between">
                     <div className="flex flex-row md:gap-3 lg:gap-20 items-center">

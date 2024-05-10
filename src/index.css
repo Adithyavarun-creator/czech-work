@@ -26,6 +26,12 @@ body {
 
 @layer components {
   .padding {
-    @apply md:px-20 md:py-10 lg:px-24 lg:py-10;
+    @apply md:px-24 md:py-10 lg:px-20 lg:py-10;
+  }
+}
+
+@layer components {
+  .about-padding {
+    @apply py-6 pl-12;
   }
 }

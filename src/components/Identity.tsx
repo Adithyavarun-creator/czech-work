@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClockRotateLeft } from '@fortawesome/free-solid-svg-icons'
 
-{/* <FontAwesomeIcon icon={faClock} /> */ }
 
 
 const Identity = () => {
@@ -9,7 +8,7 @@ const Identity = () => {
         <section className="flex flex-col gap-14 padding">
 
             <div>
-                <h1 className="text-black text-6xl font-medium">Firemní identita</h1>
+                <h2 className="text-black text-6xl font-medium select-text">Firemní identita</h2>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-14 lg:gap-16">

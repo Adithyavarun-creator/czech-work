@@ -1,16 +1,31 @@
+import { useState } from "react"
 
 const Reference = () => {
+
+    const [open, setOpen] = useState(false)
+
     return (
         <section className="relative h-[724px] bg-cover bg-no-repeat opacity-85 bg-[url('https://images.unsplash.com/photo-1706711129609-f9ce58db04fc?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"
         >
 
+            {
+                open &&
+                <div className="px-8 py-12 flex flex-col gap-14 absolute top-40 right-[600px] w-1/4 h-[430px] bg-[#806c00] rounded-2xl">
+                    <h2 className="text-white text-6xl">2016</h2>
+                    <article className="text-white text-sm font-medium">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error pariatur optio eos fugiat, veritatis ut. Officia quod quaerat voluptates? Maxime!</article>
+                    <button className="text-black text-center px-6 py-3 rounded-2xl bg-white w-min">Prehled</button>
+                </div>
+            }
+
             <div className="flex flex-col gap-10 absolute right-0 px-40 py-40">
                 <div className="flex justify-end">
-                    <h1 className="text-white text-6xl">Reference</h1>
+                    <h2 className="text-white text-6xl">Reference</h2>
                 </div>
                 <div className="grid grid-cols-4 gap-4">
                     <div className="p-4 bg-[#473B1D] rounded-lg">
-                        <span className="text-white cursor-pointer text-xl text-center">2020</span>
+                        <span className="text-white cursor-pointer text-xl text-center"
+                            onClick={() => setOpen(!open)}
+                        >2020</span>
                     </div>
                     <div className="p-4 bg-[#473B1D] rounded-lg">
                         <span className="text-white cursor-pointer text-xl text-center">2019</span>
@@ -41,8 +56,24 @@ const Reference = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
         </section>
     )
 }
 
 export default Reference
+
+
+
+
+/*
+
+ 
+
+ {open && <div className="absolute top-0 left-0 flex justify-center w-1/4 h-[400px] bg-red-500">
+
+            </div>}
+*/

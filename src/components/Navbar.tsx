@@ -1,5 +1,10 @@
+interface NavbarProps {
+    contact?: boolean
+}
 
-const Navbar = () => {
+
+const Navbar = ({ contact }: NavbarProps) => {
+
     return (
         <nav className="flex justify-between padding z-50">
             <div>
@@ -8,19 +13,21 @@ const Navbar = () => {
                     alt="logo"
                 />
             </div>
-            <div className="flex items-center gap-8 cursor-pointer">
-                <span className="text-white font-semibold md:text-sm lg:text-xl">Producty</span>
-                <span className="text-white font-semibold md:text-sm lg:text-xl">O nas</span>
-                <span className="text-white font-semibold md:text-sm lg:text-xl">Reference</span>
-                <span className="text-white font-semibold md:text-sm lg:text-xl">Identita</span>
-                <span className="text-white font-semibold md:text-sm lg:text-xl">Kontakt</span>
+            <div>
+                <ul className="flex items-center gap-8 cursor-pointer">
+                    <li className={`${contact ? 'text-white' : 'text-black'}font-bold md:text-sm lg:text-xl`}>Producty</li>
+                    <li className={`${contact ? 'text-white' : 'text-black'}font-bold md:text-sm lg:text-xl`}>O nas</li>
+                    <li className={`${contact ? 'text-white' : 'text-black'}font-bold md:text-sm lg:text-xl`}>Reference</li>
+                    <li className={`${contact ? 'text-white' : 'text-black'}font-bold md:text-sm lg:text-xl`}>Identita</li>
+                    <li className={`${contact ? 'text-white' : 'text-black'}font-bold md:text-sm lg:text-xl`}>Kontakt</li>
+                </ul>
             </div>
             <div>
-                <button className="bg-white shadow-2xl px-6 py-2 rounded-md text-center md:text-sm lg:text-xl font-medium">
+                <button className={`${contact ? 'text-white' : 'bg-white hover:bg-custom-orange text-black rounded-md shadow-2xl'}  cursor-pointer px-6 py-2 text-center md:text-sm lg:text-xl font-medium`}>
                     Akni Nabdica
                 </button>
             </div>
-        </nav>
+        </nav >
     )
 }
 

@@ -11,6 +11,7 @@ export default {
         "custom-orange": "#ff5f23",
         "custom-yellow": "#FCB900",
         footer: "#241E0E",
+        "card-bg": "#fcb900",
       },
     },
   },
