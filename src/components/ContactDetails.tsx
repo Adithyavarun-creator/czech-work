@@ -99,11 +99,11 @@ const ContactDetails = () => {
 
 
             {/* box-3 */}
-            <div className="md:[600px] lg:h-[942px] bg-[#473B1D] flex flex-col gap-40 md:p-12 lg:p-24">
+            <div className="md:h-[700px] lg:h-[942px] bg-[#473B1D] flex flex-col md:gap-20 lg:gap-40 md:p-12 lg:p-24">
                 <div className="grid grid-cols-2 gap-10">
-                    <div className="col-span-2 md:-mt-20 lg:-mt-72">
+                    <div className="md:col-span-1 lg:col-span-2 md:-mt-20 lg:-mt-72">
                         <img
-                            className="md:h-[300px] lg:h-[450px] object-cover"
+                            className="md:w-[600px] lg:h-[450px] object-cover"
                             src="https://t3.ftcdn.net/jpg/04/49/73/64/360_F_449736488_IAGo58o7DloC8Os5S5v9vppX3BIxzK4S.jpg" alt="" />
                     </div>
                 </div>
@@ -149,7 +149,7 @@ const ContactDetails = () => {
 
 
             {/* box-4 */}
-            <div className="grid grid-cols-3 md:mt-10 lg:mt-48 justify-between gap-5 md:p-20 lg:p-24">
+            <div className="grid grid-cols-3 md:mt-40 lg:mt-48 justify-between gap-5 md:p-20 lg:p-24">
                 <div className="col-span-1">
                     <h2 className="text-4xl text-black font-medium">
                         Výdejní sklad
@@ -180,9 +180,9 @@ const ContactDetails = () => {
 
 
             <div className="z-40 grid grid-cols-2 gap-10 md:p-12 lg:p-24">
-                <div className="col-span-2 md:-mt-52 lg:-mt-60">
+                <div className="col-span-2 lg:-mt-60">
                     <img
-                        className="md:h-[300px] lg:h-[450px] object-cover"
+                        className="md:w-[600px] lg:h-[450px] object-cover"
                         src="https://t3.ftcdn.net/jpg/04/49/73/64/360_F_449736488_IAGo58o7DloC8Os5S5v9vppX3BIxzK4S.jpg" alt="" />
                 </div>
             </div>
