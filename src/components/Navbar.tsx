@@ -16,7 +16,7 @@ const Navbar = ({ contact }: NavbarProps) => {
 
     return (
         <>
-            <nav className="hidden md:flex justify-between padding z-50">
+            <nav className="hidden md:flex justify-between py-10 px-10 z-50">
                 <Link to="/" className="">
                     <img src="https://i.pinimg.com/736x/05/bb/5d/05bb5d3cc73dd567808d76517b598987.jpg"
                         className="object-contain w-full h-10 cursor-pointer"
@@ -42,7 +42,7 @@ const Navbar = ({ contact }: NavbarProps) => {
 
 
             <nav className="relative md:hidden z-50">
-                <div className="flex justify-between p-12">
+                <div className="flex justify-between p-10">
                     <Link to="/">
                         <img src="https://i.pinimg.com/736x/05/bb/5d/05bb5d3cc73dd567808d76517b598987.jpg"
                             className="object-contain w-full h-10 cursor-pointer"
@@ -55,13 +55,13 @@ const Navbar = ({ contact }: NavbarProps) => {
                 </div>
 
 
-                {toggle && <div className="absolute p-10 top-0 right-0 left-0 h-screen bg-orange-600">
+                {toggle && <div className="fixed p-10 top-0 right-0 left-0 h-screen bg-orange-600">
                     <div className="flex justify-end">
                         <IoClose className="w-20 h-20 text-white" onClick={() => setToggle(false)} />
                     </div>
 
                     <div className="mt-12">
-                        <ul className="flex flex-col list-none justify-center items-center gap-10">
+                        <ul className="flex flex-col list-none justify-center items-center gap-16">
                             <li className={`text-white font-semibold text-2xl`}>Producty</li>
                             <li className={`text-white font-semibold text-2xl`}>O nas</li>
                             <li className={`text-white font-semibold text-2xl`}>Reference</li>
