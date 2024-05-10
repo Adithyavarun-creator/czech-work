@@ -4,7 +4,7 @@ const Contact = () => {
 
 
     return (
-        <section className="bg-[#FCB900] flex justify-between items-center padding">
+        <section className="bg-[#FCB900] flex flex-col md:flex-row gap-10 md:justify-between items-center padding">
             <div>
                 <h2 className="md:text-3xl lg:text-5xl text-black font-medium">
                     Hledáte spolehlivého partnera <br /> pro Vaší realizaci?
