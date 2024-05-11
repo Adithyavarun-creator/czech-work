@@ -101,7 +101,7 @@ const ContactDetails = () => {
                     </div>
                 </div>
 
-                <div className="w-1/2 mt-0 md:mt-2 lg:-mt-48 pl-10 md:pl-12 lg:pl-24 z-10">
+                <div className="w-full pr-10 md:pr-0 md:w-1/2 mt-0 md:mt-2 lg:-mt-48 pl-10 md:pl-12 lg:pl-24 z-10">
                     <div className="">
                         <img
                             className="w-full h-max object-cover"
@@ -145,7 +145,7 @@ const ContactDetails = () => {
                     </div>
                 </div>
 
-                <div className="mt-5 md:mt-0 flex md:absolute md:top-56 lg:top-80 right-0 w-[60%] pr-10 md:pr-12 lg:pr-24 z-10">
+                <div className="mt-5 md:mt-0 flex md:absolute md:top-56 lg:top-80 right-0 w-full md:w-1/2 pr-10 md:pr-12 lg:pr-24 z-10">
                     <div className="">
                         <img
                             className="w-full h-max object-cover"
@@ -190,7 +190,7 @@ const ContactDetails = () => {
                 </div>
 
 
-                <div className="w-1/2 md:-mt-32 lg:-mt-36 pl-10 md:pl-12 lg:pl-24 z-10">
+                <div className="w-full pr-10 md:pr-0 md:w-1/2 md:-mt-32 lg:-mt-36 pl-10 md:pl-12 lg:pl-24 z-10">
                     <div className="">
                         <img
                             className="w-full mb-5 md:mb-0 h-max object-cover"
