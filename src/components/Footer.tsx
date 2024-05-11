@@ -1,6 +1,7 @@
 import { faLocationDot, faMobileScreenButton, faClock } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { FaFacebookF, FaInstagram, FaPinterestP } from "react-icons/fa";
+import { Logo } from "../assets";
 
 const Footer = () => {
     return (
@@ -9,8 +10,8 @@ const Footer = () => {
             <div className="flex flex-col gap-20">
 
                 <div>
-                    <img src="https://i.pinimg.com/736x/05/bb/5d/05bb5d3cc73dd567808d76517b598987.jpg"
-                        className="object-contain w-10 h-10 cursor-pointer"
+                    <img src={Logo}
+                        className="object-contain h-10 cursor-pointer"
                         alt="logo"
                     />
                 </div>

@@ -1,7 +1,7 @@
 
 const Fillings = () => {
     return (
-        <section className="p-24 md:px-40 md:py-24 mt-[400px] md:mt-[950px] h-max md:h-[400px] bg-custom-orange flex flex-col md:flex-row gap-10 md:gap-36">
+        <section className="p-14 md:px-40 md:py-24 mt-[400px] md:mt-[330px] lg:mt-[425px] h-max md:h-[400px] bg-custom-orange flex flex-col md:flex-row gap-10 md:gap-36">
             <div>
                 <h2 className="text-white md:text-4xl lg:text-6xl">
                     Široký výběr v oblasti <br /> stavebních výplní

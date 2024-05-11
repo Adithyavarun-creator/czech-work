@@ -35,3 +35,30 @@ body {
     @apply py-6 pl-12;
   }
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #ff5f23;
+  right: 10px;
+  padding: 35px;
+  color: #fff !important;
+  fill: #fff !important;
+  stroke: #fff !important;
+  border-radius: 50%;
+  clip-path: circle();
+
+  @media (max-width: 576px) {
+    padding: 30px;
+  }
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #ff5f23;
+  opacity: 1;
+}
+
+/* target all bullets */
+.swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 1;
+}
